@@ -4,7 +4,8 @@
   "description": "Example code from WebGL Fundamentals with my annotations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/davidbjourno/webgl-fundamentals/issues"
   },
-  "homepage": "https://github.com/davidbjourno/webgl-fundamentals#readme"
+  "homepage": "https://github.com/davidbjourno/webgl-fundamentals#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
 }
